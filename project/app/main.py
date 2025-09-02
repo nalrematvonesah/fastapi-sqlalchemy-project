@@ -7,7 +7,7 @@ from app.api.user import router as user_router
 app = FastAPI()
 app.include_router(user_router)
 
-
+#dsadsadas
 def create_tables():
     Base.metadata.create_all(bind=engine)
 
